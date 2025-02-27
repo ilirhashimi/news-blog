@@ -3,9 +3,8 @@ import { Box } from '@mui/material';
 import { NewsProvider } from './contexts/news/news';
 import { SnackbarProvider } from 'notistack';
 
-import { Main } from './api/page/main';
-
 import './App.css';
+import { Main } from './page/main';
 
 function App() {
   return (

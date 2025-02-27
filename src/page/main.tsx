@@ -1,8 +1,8 @@
 import { useContext, useEffect, useRef } from 'react';
-import { NewsContext } from '../../contexts/news/news';
-import { Card, CardSkeleton, Filters, Pagination } from '../../components';
 import { Box, Dialog, Typography } from '@mui/material';
-import { TArticles } from '../../contexts/news/news.types';
+import { NewsContext } from '../contexts/news/news';
+import { Card, CardSkeleton, Filters, Pagination } from '../components';
+import { TArticles } from '../contexts/news/news.types';
 
 export const Main = () => {
   const { state, closeFilter } = useContext(NewsContext);
