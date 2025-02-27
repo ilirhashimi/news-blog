@@ -12,7 +12,7 @@ import {
   transformNewsApiArticles,
   transformNYTArticles,
   transformTheGuardianArticles,
-} from '../../unit/response-transformation';
+} from '../../utils/response-transformation';
 import { useSnackbar } from 'notistack';
 import { DATA_SOURCE_ENUM, LOCAL_STORAGE_VALUES } from '../../constants/global';
 
